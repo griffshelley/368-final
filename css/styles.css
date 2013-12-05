@@ -44,8 +44,8 @@ nav a:hover{
 -webkit-border-radius: 25px;
 color: white;
 background: red;
-padding: 5px;
-height: 100px;
+ 
+height: 50px;
 -webkit-transition: all .2s;
 }
 
@@ -131,14 +131,9 @@ position: relative;
 }
 
 .mission{
-float: left;
+text-indent: 2%;
 font-family: tahoma;
-position: relative;
-top: 3em;
-line-height: 1.2em;
 font-size: 1.3em;
-width: 50%;
-display: block;
 }
 
 span{
@@ -187,6 +182,16 @@ font-size: 1.5em;
 
 form{
 width: auto;	
+}
+
+.contactimg{
+width: 80%;	
+margin-top: 5%;
+}
+
+.contactimg:hover{
+-webkit-transform: scale(1.2);
+-webkit-transition: 1s;	
 }
 
 /*Projects Page*/
