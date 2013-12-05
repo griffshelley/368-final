@@ -1,7 +1,11 @@
 /*Univ Nav*/
 .container{
 margin: 0 auto;
-width: 100%;
+width: 960px;
+}
+
+body{
+background: url("../images/old_moon.png");  	
 }
 
 nav li{
@@ -212,13 +216,13 @@ margin: 0 5% 0 5%;
 
 #featurecar{
 width: 80%;	
-margin: 0 5% 0 5%;
+margin: 0 1% 0 1%;
 }
 
 .projectrow1 img{
 float: left;
-width: 200%;
-height: 200%;
+width: 100%;
+height: 100%;
 position: relative;
 bottom: 600px;
 right: 60%;
@@ -273,12 +277,21 @@ list-style: none;
   z-index:1;
 }
 
+.gallerybox{
+height: 400px;	
+width: 960px;
+margin: auto;
+position: relative;
+top: 200px;
+}
+
 /*Gallery*/
 @charset "UTF-8";
 .gallery .control-operator:target ~ .controls .control-button {
   color: #ccc;
   color: rgba(255, 255, 255, 0.4);
 }
+
 
 .gallery .control-button:first-of-type, .items-2 .control-operator:nth-of-type(1):target ~ .controls .control-button:nth-of-type(1), .items-2 .control-operator:nth-of-type(2):target ~ .controls .control-button:nth-of-type(2), .items-3 .control-operator:nth-of-type(1):target ~ .controls .control-button:nth-of-type(1), .items-3 .control-operator:nth-of-type(2):target ~ .controls .control-button:nth-of-type(2), .items-3 .control-operator:nth-of-type(3):target ~ .controls .control-button:nth-of-type(3), .items-4 .control-operator:nth-of-type(1):target ~ .controls .control-button:nth-of-type(1), .items-4 .control-operator:nth-of-type(2):target ~ .controls .control-button:nth-of-type(2), .items-4 .control-operator:nth-of-type(3):target ~ .controls .control-button:nth-of-type(3), .items-4 .control-operator:nth-of-type(4):target ~ .controls .control-button:nth-of-type(4), .items-5 .control-operator:nth-of-type(1):target ~ .controls .control-button:nth-of-type(1), .items-5 .control-operator:nth-of-type(2):target ~ .controls .control-button:nth-of-type(2), .items-5 .control-operator:nth-of-type(3):target ~ .controls .control-button:nth-of-type(3), .items-5 .control-operator:nth-of-type(4):target ~ .controls .control-button:nth-of-type(4), .items-5 .control-operator:nth-of-type(5):target ~ .controls .control-button:nth-of-type(5) {
   color: white;
@@ -672,4 +685,22 @@ list-style: none;
   transition: color .1s;
 }
 
-/*featured cars*/
+@media screen and (max-width: 1024px){
+	body{background: red;}
+	.mission{width: 100%;}
+	
+}
+
+
+@media screen and (max-width: 768px){
+	body{background: #999;}
+	.mission{width: 100%;}
+	h2{float: left; margin: 0 0 5% 0;}
+	a:visited{color: white;}
+}
+
+@media screen and (max-width: 468px){
+	body{background: lightgray;}
+	.mission{width: 100%;}
+	h2{float: left; margin: 0 0 5% 0;}
+}
