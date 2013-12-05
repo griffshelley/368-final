@@ -36,15 +36,13 @@ color: #666;
 
 a:focus{
 background: red;
-border-radius: 5px;
 }
 
 nav a:hover{
 -webkit-transition-property: border-radius;
 -webkit-border-radius: 25px;
 color: white;
-background: red;
- 
+background: red; 
 height: 50px;
 -webkit-transition: all .2s;
 }
