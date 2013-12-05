@@ -124,13 +124,10 @@ display: block;
 }
 
 h2{
-
 clear: left;
 font-family: verdana;
 font-size: 1.3em;
- 
 position: relative;
-
 }
 
 .mission{
@@ -206,6 +203,7 @@ margin-bottom: 2%;
 line-height: 1.2em;
 font-size: 1.3em;
 width: 80%;
+text-indent: 2%;
 }
 
 .projectrow1{
@@ -230,8 +228,6 @@ right: 60%;
 clear: both;
 }
 
- 
-
 .fullsize{
 position: relative;	
 top: -400px;
@@ -239,6 +235,9 @@ left: -16%;
 list-style: none;
 }
 
+.stress{
+font-style: italic;	
+}
 
 .fullsize  img {
 position: absolute;
