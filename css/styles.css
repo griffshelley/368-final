@@ -61,6 +61,7 @@ li{
 float: left;
 position: relative;
 top: 550px;	
+list-style: none;
 }
 
 
@@ -229,22 +230,19 @@ right: 60%;
 clear: both;
 }
 
-.projectrow1 li:nth-child(3) img{
-position: relative;
-bottom: 582px;
-}
+ 
 
 .fullsize{
 position: relative;	
 top: -400px;
-left: -10%;
+left: -16%;
 list-style: none;
 }
 
 
 .fullsize  img {
 position: absolute;
-right: 0;
+right: 40%;
 width: 750px;
 height: 500px;
 margin: 10px;
@@ -686,7 +684,7 @@ top: 200px;
 }
 
 @media screen and (max-width: 1024px){
-	body{background: red;}
+	body{background: #9CF;}
 	.mission{width: 100%;}
 	
 }
