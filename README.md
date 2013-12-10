@@ -8,5 +8,9 @@ Grid system from teamtreehouse.com
 header box-shadow from http://css3generator.com/
 <br>
 carousel html provided by http://bradsknutson.com/blog/css-responsive-carousel/
+<br>
+Gradient: http://ie.microsoft.com/TEStdrive/Graphics/CSSGradientBackgroundMaker/Default.html
+<br>
+
 
 final for 368
