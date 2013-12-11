@@ -286,10 +286,10 @@ button,
 input,
 select,
 textarea {
-    font-family: inherit; /* 1 */
-    font-size: 100%; /* 2 */
-    margin: 0; /* 3 */
-	width: 20%;
+    font-family: 'Trade Winds'; /* 1 */
+    font-size: 1.4em;
+	line-height: 1.2em; /* 2 */
+	width: 40%;
 }
 
 /**
