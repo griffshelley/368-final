@@ -167,6 +167,14 @@ box-shadow: 0px -5px 11px rgba(70, 50, 50, 0.3);
 height: 90px;
 }
 
+.foot li{
+font-size: 1em;	
+}
+
+.foot a:hover{
+color: green;	
+}
+
 /*=====Sprite
 ====*/
 .sprite{
