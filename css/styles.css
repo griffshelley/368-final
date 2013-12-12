@@ -391,10 +391,6 @@ animation-delay: 25s;
 0%, 20%, 100% { opacity: 0; }
 5%, 15% { opacity: 1;}
 }
-@-ms-keyframes css-carousel-fade {
-0%, 20%, 100% { opacity: 0; }
-5%, 15% { opacity: 1;}
-}
 @keyframes css-carousel-fade {
 0%, 20%, 100% { opacity: 0; }
 5%, 15% { opacity: 1;}
