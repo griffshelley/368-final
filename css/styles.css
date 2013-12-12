@@ -351,6 +351,7 @@ overflow: hidden;
 .css-carousel .css-img {
 max-width: 99%;
 position: absolute;
+background: white;
 left: 0;
 right: 0;
 opacity: 0;
@@ -388,6 +389,10 @@ animation-delay: 25s;
 5%, 15% { opacity: 1;}
 }
 @-moz-keyframes css-carousel-fade {
+0%, 20%, 100% { opacity: 0; }
+5%, 15% { opacity: 1;}
+}
+@-ms-keyframes css-carousel-fade {
 0%, 20%, 100% { opacity: 0; }
 5%, 15% { opacity: 1;}
 }
