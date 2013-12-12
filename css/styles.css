@@ -40,7 +40,8 @@ width: 960px;
 
 .container{
 margin: auto;
-width: 960px;	
+width: 960px;
+perspective: 960px;	
 }
 
 body{
@@ -347,6 +348,7 @@ width: 80%;
 height: 900px; /* Height of images */
 position: relative;
 overflow: hidden;
+transform-style: preserve-3d;
 }
 .css-carousel .css-img {
 max-width: 99%;
