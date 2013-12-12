@@ -52,10 +52,14 @@ width: 30%;
 margin-left: 30%;
 }
 
+
+/*======
+NAVIGATION
+====*/
 nav li{
 float: left;
 list-style: none;
-margin: 1%;
+margin: 10px 20px 0 20px;
 font-size: 1.2em;
 position: relative;
 font-family: tahoma;
